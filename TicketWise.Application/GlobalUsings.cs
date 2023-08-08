@@ -1,0 +1,10 @@
+﻿global using AutoMapper;
+global using FluentValidation;
+global using MediatR;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Reflection;
+global using TicketWise.Application.Contracts.Persistence;
+global using TicketWise.Application.Features.Events.Queries.GetEventDetail;
+global using TicketWise.Application.Features.Events.Queries.GetEvents;
+global using TicketWise.Core.Common;
+global using TicketWise.Core.Entities;
