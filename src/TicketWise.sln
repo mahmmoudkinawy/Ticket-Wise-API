@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9F6D3946-7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{72FE9576-0459-4BCE-84FE-0E412E61692A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C6DE0E93-BC2D-4B76-9ED3-8525F52877D8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{C6DE0E93-BC2D-4B76-9ED3-8525F52877D8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketWise.Persistence", "Infrastructure\TicketWise.Persistence\TicketWise.Persistence.csproj", "{7C444D0D-58C3-4504-A517-602650CA11D4}"
 EndProject
