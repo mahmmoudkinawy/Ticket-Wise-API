@@ -5,5 +5,6 @@ public sealed class EventsMapperProfile : Profile
     {
         CreateMap<EventEntity, EventResponse>();
         CreateMap<EventEntity, EventDetailResponse>();
+        CreateMap<EventEntity, EventCsvResponse>();
     }
 }

@@ -3,7 +3,7 @@ public sealed class OrderRepository : BaseRepository<OrderEntity>, IOrderReposit
 {
     public OrderRepository(TicketWiseDbContext context) : base(context) { }
 
-    public async Task<List<OrderEntity>> GetPagedOrdersForMonthAsync(
+    public async Task<IReadOnlyList<OrderEntity>> GetPagedOrdersForMonthAsync(
         DateTime date, int page, int size)
     {
         ArgumentNullException.ThrowIfNullOrEmpty(nameof(date));

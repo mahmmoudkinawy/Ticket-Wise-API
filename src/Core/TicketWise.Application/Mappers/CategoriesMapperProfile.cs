@@ -5,5 +5,6 @@ public sealed class CategoriesMapperProfile : Profile
     {
         CreateMap<CategoryEntity, Features.Events.Queries.GetEventDetail.CategoryResponse>();
         CreateMap<CategoryEntity, Features.Categories.Queries.GetCategories.CategoryResponse>();
+        CreateMap<CategoryEntity, Features.Categories.Queries.GetCategoriesWithEvents.CategoryEventResponse>();
     }
 }

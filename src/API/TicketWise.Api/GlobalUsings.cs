@@ -1,0 +1,10 @@
+﻿global using MediatR;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using TicketWise.Api.Extensions;
+global using TicketWise.Application;
+global using TicketWise.Application.Features.Categories.Queries.GetCategories;
+global using TicketWise.Application.Features.Categories.Queries.GetCategoriesWithEvents;
+global using TicketWise.Application.Features.Events.Commands.CreateEvent;
+global using TicketWise.Infrastructure;
+global using TicketWise.Persistence;

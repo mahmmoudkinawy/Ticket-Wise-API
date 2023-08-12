@@ -21,6 +21,6 @@ public sealed class GetCategoriesWithEventsQueryHandler :
 
         var categoriesWithEvents = await _categoryRepository.GetCategoriesWithEventsAsync(request.IncludeHistory);
 
-        return _mapper.Map<List<CategoryEventResponse>>(categoriesWithEvents);
+        return _mapper.Map<IReadOnlyList<CategoryEventResponse>>(categoriesWithEvents);
     }
 }
